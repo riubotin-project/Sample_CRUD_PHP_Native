@@ -1,9 +1,9 @@
 <?php
 // used to connect to the database
-$host = "kiouni.db.elephantsql.com";
-$db_name = "tiwormkn";
-$username = "tiwormkn";
-$password = "h3J0Mjbin1wd3d0H5OSjjHvEkVHgDKNp";
+$host = "localhost";
+$db_name = "if0_35414023_database";
+$username = "if0_35414023";
+$password = "pwF27AYiNWQt7";
   
 try {
     $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
